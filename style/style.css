@@ -160,7 +160,6 @@ body .wrapper {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
 }
 
 .action-button button {
@@ -189,6 +188,12 @@ body .wrapper {
 @media (max-width: 768px) {
   .action-button button {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .action-button button {
+    font-size: 1rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
