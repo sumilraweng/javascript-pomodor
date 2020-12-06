@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 90vh;
+  margin: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Comfortaa", cursive;
+}
+
+body .wrapper {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.tab-section {
+  margin-bottom: 20px;
+}
+
+.tab-section button {
+  -webkit-box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+          box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+  border: none;
+  width: 20vw;
+  height: 10vh;
+  margin: 0 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-image: url("../assests/images/timerBackground.jpeg");
+  background: -webkit-gradient(linear, left top, right top, from(#c33764), to(#1d2671));
+  background: linear-gradient(to right, #c33764, #1d2671);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.tab-section button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.tab-section button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .tab-section button {
+    font-size: 0.8rem;
+    height: 7vh;
+  }
+}
+
+@media (max-width: 576px) {
+  .tab-section button {
+    font-size: 0.5rem;
+    height: 5vh;
+  }
+}
+
+.tab-section button#promodor {
+  border-radius: 5px;
+  border-top-left-radius: 100px;
+}
+
+.tab-section button#short-break {
+  border-radius: 5px;
+}
+
+.tab-section button#long-break {
+  border-radius: 5px;
+  border-top-right-radius: 100px;
+}
+
+.timer-section {
+  -webkit-box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  background: url("../assests/images/colorfull.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(#c33764), to(#1d2671));
+  background: linear-gradient(to right, #c33764, #1d2671);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100%;
+  height: 80vh;
+  width: 40vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .timer-section {
+    height: 70vh;
+    width: 70vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .timer-section {
+    height: 70vh;
+    width: 70vw;
+  }
+}
+
+.timer-section #timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 5rem;
+  font-weight: bold;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 768px) {
+  .timer-section #timer {
+    font-size: 3rem;
+  }
+}
+
+.action-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.action-button button {
+  font-size: 3rem;
+  height: 0vh;
+  border: none;
+  background: none;
+}
+
+.action-button button i {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.action-button button i:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+.action-button button i:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .action-button button {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
