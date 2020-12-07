@@ -154,16 +154,16 @@ body .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 40vw;
 }
 
 .action-button button {
-  font-size: 3rem;
+  font-size: 2.5rem;
   height: 0vh;
   border: none;
   background: none;
@@ -187,13 +187,13 @@ body .wrapper {
 
 @media (max-width: 768px) {
   .action-button button {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .action-button button {
-    font-size: 1rem;
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */
