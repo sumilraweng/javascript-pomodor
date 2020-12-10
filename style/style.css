@@ -116,14 +116,14 @@ body .wrapper {
 
 @media (max-width: 768px) {
   .timer-section {
-    height: 70vh;
+    height: 80vh;
     width: 70vw;
   }
 }
 
 @media (max-width: 576px) {
   .timer-section {
-    height: 70vh;
+    height: 80vh;
     width: 70vw;
   }
 }
@@ -156,10 +156,11 @@ body .wrapper {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  height: 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 40vw;
+  width: 20vw;
 }
 
 .action-button button {
